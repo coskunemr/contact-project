@@ -2,82 +2,123 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacts</title>
-  <link rel="stylesheet" href="style.css">
+  <title>LinkMingle</title>
+  <link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
+  <link rel="stylesheet" href="/assets/styles/sidebar.css">
+  <link rel="stylesheet" href="/assets/styles/main_content.css">
 </head>
 <body>
 
-<div id="top_main_div">
-  <div id="top_left_div">
-    <img id="logo" src="/Contacts-logos/contacts_logo_tranparent_orange.svg">
-  </div>
+  <div id="side_bar_cont">
+    <div id="side_bar_top_cont">
+        <!-- <div id="toogle_cont">
+            <div id="toogle">
+                <input type="checkbox">
+            </div>
+        </div>
+         -->
+        <div id="logo_cont">
+            <div id="logo_icon_cont">
+                <img src="/assets/images/logos/Link_Mingle_Logo/logo_shape.svg" alt="">
+            </div>
+            
+            <div id="logo_text_cont">
+                <div id="logo_text_linkMingle">
+                    <img src="/assets/images/logos/Link_Mingle_Logo/logo.svg" alt="">
+                </div>
+                
+                <div id="logo_slogan_cont">
+                    <img src="/assets/images/logos/Link_Mingle_Logo/logo_slogan.svg" alt="">
+                </div>
+            </div>
 
-  <div id="top_mid_div">
-    <div div class="icons_container" id="top_mid_container1">
-      <a href="#search_bar_container">
-<img class="icon_img" src="/icons/search_icon.svg" alt="search_icon">
-      </a>
+            <div id="version_cont">
+                <div id="version">
+                    <p id="version_number">v.01</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="create_contact_cont">
+      <div id="create_contact_btn_cont">
+        <button id="create_contact_btn">
+            <img src="/assets/images/icons/button_icons/add_contact.svg" alt="">
+            Create Contact
+        </button>
+      </div>
+    </div>
+
+    <div id="menu_cont">
+        
+        <div id="contacts_cont">
+            <button id="contacts_btn">
+                <img src="/assets/images/icons/button_icons/contacts.svg" alt="">
+                Contacts
+                <img src="/assets/images/icons/button_icons/right_icon.svg" alt="">
+            </button>
+         </div>   
+
+         <div id="favorites_btn_cont">
+            <button id="favorites_btn">
+                <img src="/assets/images/icons/button_icons/heart.svg" alt="">
+                Favorites
+                <img src="/assets/images/icons/button_icons/right_icon.svg" alt="">
+            </button>
+         </div>
+          
+         <div id="collegues_btn_cont">
+            <button id="collegues_btn">
+                <img src="/assets/images/icons/button_icons/collegues_icon.svg" alt="">
+                Collegues
+                <img src="/assets/images/icons/button_icons/right_icon.svg" alt="">
+            </button>
+         </div>
+          
+         <div id="labels_btn_cont">
+            <button id="labels_btn">
+                <img src="/assets/images/icons/button_icons/label_icon.svg" alt="">
+                Labels
+                <img src="/assets/images/icons/button_icons/right_icon.svg" alt="">
+            </button>
+         </div>
+           
+         <div id="trash_btn_cont">
+            <button id="trash_btn"> 
+                <img src="/assets/images/icons/button_icons/trash_icon.svg" alt="">
+                Trash
+                <img src="/assets/images/icons/button_icons/right_icon.svg" alt="">
+            </button>
+         </div>
+           
+        
     </div>
     
-    <div id="top_mid_container2">
-      <input id="search_bar_container" type="text" placeholder="   Search" >
-    </div>
-  </div>
+    <div id="user_profile_cont">
+        <div id="user_pp_cont">
+            <img id="pp"
+                src="/assets/images/PP/DSCF5252.jpeg" alt="">
+        </div>
+        <div id="user_info_cont">
+            <div id="user_name_cont">
+                <p>Emre Coskun</p>
+            </div>
 
-  <div id="top_right_div">
-    <div class="icons_container" id="top_right_container_1">
-      <img class="icon_img" src="/icons/settings_icon.svg">
+            <div id="user_title_cont">
+                <p>Product Owner</p>
+            </div>
+        </div>
+        <div id="setting_cont">
+            <a href="">
+                <img src="/assets/images/icons/button_icons/settings_icon.svg" alt="">
+            </a>
+                
+        
+           
+        </div>
     </div>
-    <div div class="icons_container" id="top_right_container_2">
-    <img class="icon_img" src="/icons/import_icon.svg">
-    </div>
-
-    <div class="icons" id="top_right_container_3">
-    <img class="icon_img" src="/icons/Export_icon.svg">
-    </div>
-  </div>
-
 </div>
 
-<div id="left-main-div">
-  <div id="create-contact-btn-container">
-    <button id="create-btn">
-      <img id="plus-icon"  src="/icons/add.svg" alt="">
-      <span>Create Contact</span>
-    </button>
-  </div>
-  <div id="left-nav-container">
-    <button>
-      <img class="btn-icon" src="/icons/people.svg" alt="">
-      <span>Contacts</span>
-
-    </button>
-    
-    <button>
-      <img class="btn-icon" src="/icons/star.svg" alt="">
-      <span>Favorites</span>   
-     </button>
-
-    <button>
-      <img class="btn-icon" src="/icons/briefcase.svg" alt="">
-      <span>Collegues</span>   
-
-      
-    </button>   
-  </div>
-
-</div>
-
-<div id="main-contats">
-  <div id="main-contact-header">
-    <div class="filter-text">Name</div>
-    <div class="filter-text">Email</div>
-    <div class="filter-text">Phone</div>
-    <div class="filter-text">Adress</div>
-  </div>
-</div>
-
-
-<script src="app.js"></script>
 </body>
 </html>

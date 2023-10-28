@@ -1,0 +1,151 @@
+#side_bar_cont {
+  background-color: #FFFFFF ;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#side_bar_top_cont {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+#toogle_cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#toogle{
+  width: 25px;
+  height: 25px;
+
+}
+
+#logo_cont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#version_number{
+  font-size: 10px;
+  color: #DBE4EE;
+  font-weight: 500;
+}
+
+
+#create_contact_cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#create_contact_btn{
+  width: 220px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  color: #81A4CD;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  
+  
+}
+
+#create_contact_btn:hover{
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+#menu_cont{
+  width: 300px; 
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+  
+}
+
+
+div > button {
+
+
+  display: flex;
+  width: 250px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 8px 42px 8px 16px;
+  gap: 8px;
+  color: #81A4CD;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+  outline: none;
+
+
+}
+
+div > button:hover {
+  background-color: gainsboro
+}
+
+
+#pp{
+  width: 42px;
+  height: 42px;
+  border: #81A4CD solid 1px;
+  border-radius: 50%;
+}
+
+#user_profile_cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+}
+
+
+#user_profile_cont p{
+  color: #00000082;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.14px;
+
+}
