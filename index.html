@@ -6,6 +6,7 @@
   <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
   <link rel="stylesheet" href="assets/styles/sidebar.css">
   <link rel="stylesheet" href="assets/styles/main_content.css">
+
 </head>
 <body>
     <div id="side_bar_cont">
@@ -208,24 +209,54 @@
     </div>
 
     <div id="contacs_list_cont">
-            <div id="contacts_list_top_cont">
+        <div id="filter_cont">
 
+            <div id="filter_left_cont">
+                <div>
+                    <h4>All Contacts</h4>
+                </div>
             </div>
 
-            <div id="contacts_list_filter_cont">
-                
+            <div id="filter_right_cont">
+                <div >
+                    <div>
+                        <select id="filterOptions">
+                            <option value="all">All</option>
+                            <option value="Short by:names">Short by: Names</option>
+                            <option value="Short by:last names">Short by: Last names</option>
+                            <option value="Short by:newest">Short by: Newest</option>
+                          </select>
+                    </div>
+                 </div>  
             </div>
+                     
+        </div>
 
-            <div id="contacts_cont">
-            
-
-            </div>
-
-            <div id="contacts_list_bottom_cont">
-
+        <div id="contacts_header_cont">
+            <div id="contacts_header">
+                <div>Name</div>
+                <div>Company</div>
+                <div>Phone Number</div>
+                <div>Email</div>
+                <div>Country</div>
+                <div>Label</div>
             </div>
         </div>
 
+        <div id="contacts">
+            <div>Jane Cooper</div>
+            <div>Microsoft</div>
+            <div>(225) 555-0118</div>
+            <div>jane@microsoft.com</div>
+            <div>United States</div>
+            <div>Family</div>
+        </div>
+        <div>
+
+        </div>
     </div>
+
+
+
 </body>
 </html>
