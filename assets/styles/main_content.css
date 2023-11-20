@@ -288,3 +288,92 @@ margin-top: 10px;
   justify-content: space-around;
   align-items: center;
 }
+
+#add_contact_modal{
+  width: 700px;
+  height: 700px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+#label_cont{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  border-bottom: #00000012 1px solid;
+}
+
+#personel_info_cont{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#profile_picture_cont{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#profile_picture {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  border: #000000 1px solid;
+  margin-top: 25px;
+}
+
+#personel_info_form_cont{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#personel_info_form_cont > div {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-bottom: #00000012 1px solid;
+}
+
+.form_box1 > div {
+width: 250px;
+height: 75px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-items: center;
+margin: 5px;
+}
+
+
+#buttom_btn_cont{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+#buttom_btn_cont > div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
